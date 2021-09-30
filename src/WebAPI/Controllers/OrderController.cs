@@ -25,7 +25,7 @@ namespace SNGBarrett.BookStore.WebAPI.Controllers
         }
 
         [HttpPut]
-        [Route("{orderId}/cancel")]
+        [Route("{OrderId}/cancel")]
         [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [SwaggerOperation(Description = "Cancel an existing order", OperationId = "cancel-order", Tags = new[] { "cancel", "order" })]
